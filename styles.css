@@ -1,0 +1,42 @@
+body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-family: "Inter", sans-serif;
+}
+
+nav {
+	background-color: blanchedalmond;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+#interface {
+	display: flex;
+	background-color: darkseagreen;
+	flex-direction: column;
+	width: 100%;
+	padding-top: 15px;
+	/* border: 1px solid red; */
+}
+
+label {
+	margin: 5px;
+}
+
+input {
+	padding: 8px;
+}
+
+button {
+	margin-top: 10px;
+	margin-bottom: 15px;
+	width: 100px;
+	align-self: center;
+	border-radius: 3px;
+	border: none;
+	box-shadow: 2px 2px 2px gray;
+	font-size: 20px;
+	padding: 5px 15px;
+}
